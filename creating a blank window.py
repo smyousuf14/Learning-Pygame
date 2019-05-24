@@ -19,3 +19,7 @@ while isRunning:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             isRunning = False
+
+    #Update the screen
+    pygame.display.flip()
+
